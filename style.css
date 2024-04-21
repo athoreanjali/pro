@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Rye&display=swap");
+body{
+    background:navy;
+    font-family: "Rye", serif;
+
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-image: url(Background\ -\ Copy.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+
+}
+.stopwatch{
+    margin-top: 60px;
+    font-size: 45px;
+    font-weight: 300;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+      width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:1220px){
+    
+}
+@media screen  and (max-width:980px){
+
+}
+@media screen  and (max-width:768px){
+
+}
+@media screen  and (max-width:460px){
+
+}
+@media screen  and (max-width:360px){
+    .stopwatch{font-size: 24px;}
+    .buttons img:nth-child(2){width: 75px;}
+
+}
+
+
